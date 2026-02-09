@@ -1,0 +1,19 @@
+{
+    "stock_symbol": "GE",
+    "current_price": 5100,
+    "target_price": 5500,
+    "start_date": "09 Feb 2026",
+    "expiration_date": "28 Feb 2026",
+    "model_mode": "REAL_WORLD",
+    "capm_settings": {
+        "beta": 0.15,
+        "market_return_percent": 10.0
+    },
+    "volatility_annualized_percent": 27,
+    "risk_free_rate_percent": 4.0,
+    "dividend_yield_percent": 0.0,
+    "simulation_settings": {
+        "n_paths": 100000,
+        "n_steps_per_day": 7
+    }
+}
